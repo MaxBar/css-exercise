@@ -1,8 +1,20 @@
 #mainDiv {
     font-size: 25px;
 }
+#mainDiv > p {
+    background-color: green;
+}
+#mainDiv ~ p {
+    background-color: yellow;
+}
+#mainDiv + p {
+    background-color: pink;
+}
 .firstP {
     font-size: 30px;
+}
+h1 {
+    background-color: gray;
 }
 a[href*="sweclockers"] {
     color: aquamarine;
@@ -15,4 +27,13 @@ a[href*="webhallen"] {
 }
 a[href*="second"] {
     color: darkgreen;
+}
+section p {
+    background-color: red;
+}
+ul {
+    list-style-type: lower-alpha;
+}
+ul li a {
+    text-decoration: none;
 }
