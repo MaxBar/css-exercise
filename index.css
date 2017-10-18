@@ -4,3 +4,15 @@
 .firstP {
     font-size: 30px;
 }
+a[href*="sweclockers"] {
+    color: aquamarine;
+}
+a[href*="sydsvenskan"] {
+    color: brown;
+}
+a[href*="webhallen"] {
+    color: darkmagenta;
+}
+a[href*="second"] {
+    color: darkgreen;
+}
